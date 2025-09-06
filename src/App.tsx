@@ -71,8 +71,8 @@ function App() {
     { name: 'Git/GitHub', level: 75, color: 'bg-gray-800' },
     { name: 'VS Code', level: 85, color: 'bg-blue-400' },
     { name: 'Postman', level: 70, color: 'bg-orange-600' },
-    { name: 'AutoCAD', level: 60, color: 'bg-red-500' },
-    { name: 'SOLIDWORKS', level: 55, color: 'bg-red-600' },
+    { name: 'AutoCAD', level: 90, color: 'bg-red-500' },
+    { name: 'SOLIDWORKS', level: 85, color: 'bg-red-600' },
     { name: 'MS Office', level: 80, color: 'bg-blue-700' },
     { name: 'Firebase', level: 65, color: 'bg-yellow-600' },
   ];
@@ -155,13 +155,13 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => scrollToSection('projects')}
-                className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 cursor-pointer"
               >
                 View My Work
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-xl hover:bg-blue-600 hover:text-white transition-all duration-200"
+                className="px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-xl hover:bg-blue-600 hover:text-white transition-all duration-200 cursor-pointer"
               >
                 Get In Touch
               </button>
@@ -248,7 +248,7 @@ function App() {
                     VNR VJIET College
                   </p>
                   <p className="text-gray-600 mb-2">CGPA: 7.67/10</p>
-                  <p className="text-gray-500">Completed</p>
+                  <p className="text-gray-500">2018-2021</p>
                 </div>
               </div>
             </div>
@@ -473,7 +473,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-gray-400">
-              © 2024 Somaraju Goutham. Built with React and Tailwind CSS.
+              © 2024 Somaraju Goutham.
             </p>
           </div>
         </div>
